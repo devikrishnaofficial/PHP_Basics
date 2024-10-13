@@ -5,7 +5,7 @@ function reverseWords($inputString) {
     $reversedString = implode(' ', $reversedArray);
     return $reversedString;
 }
-$inputString = "Hello World from ChatGPT";
+$inputString = "Hello World ";
 $reversedString = reverseWords($inputString);
 echo "Original String: " . $inputString . "\n";
 echo "Reversed Words String: " . $reversedString . "\n";
